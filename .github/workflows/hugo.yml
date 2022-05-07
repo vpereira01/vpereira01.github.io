@@ -7,8 +7,8 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,13 +32,11 @@ jobs:
       - name: Hugo setup
         # You may pin to the exact commit or the version.
         uses: peaceiris/actions-hugo@c03b5dbed22245418539b65eb9a3b1d5fdd9a0a6
-        # uses: peaceiris/actions-hugo@v2.4.13
         
       - name: Build
         run: hugo --minify
         
       - name: Deploy
-        # uses: peaceiris/actions-gh-pages@v3.8.0
         uses: peaceiris/actions-gh-pages@068dc23d9710f1ba62e86896f84735d869951305
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
