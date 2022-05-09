@@ -2,6 +2,7 @@
 title: "About"
 date: 2022-05-07T15:59:34+01:00
 draft: false
+tags: [vpereira01]
 ---
 
 I'm Vítor a software engineer from Portugal and this is where I post about software.
