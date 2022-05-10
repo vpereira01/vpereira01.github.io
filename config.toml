@@ -43,3 +43,8 @@ theme = "loveit"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+
+[author]
+  name = "vpereira01"
+  email = ""
+  link = "/about"
