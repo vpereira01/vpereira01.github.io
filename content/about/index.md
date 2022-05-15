@@ -17,6 +17,7 @@ I'm Vítor a software engineer from Portugal and this is where I post about soft
 * [Hugo Setup](https://github.com/marketplace/actions/hugo-setup), a GitHub (GH) Action that setups Hugo within a GH Actions' workflow.
 * [Peaceiris' GitHub Pages action](https://github.com/marketplace/actions/github-pages-action), a GitHub (GH) Action that deploys a static site to GH Pages.
 * [Cloudflare Email Routing](https://developers.cloudflare.com/email-routing/), routes emails from custom email boxes.
+* [Embed Like Gist](https://emgithub.com/), service/JavaScript library to embed GitHub files.
 
 ## Links
 
