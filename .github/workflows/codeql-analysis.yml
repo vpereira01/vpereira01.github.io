@@ -12,8 +12,8 @@
 name: "CodeQL"
 
 on:
-  push:
-    branches: [ gh-pages ]
+  #push:
+  #  branches: [ gh-pages ]
   #pull_request:
   #  # The branches below must be a subset of the branches above
   #  branches: [ main ]
@@ -41,6 +41,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        ref: 'gh-pages'
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
