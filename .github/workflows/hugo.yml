@@ -30,8 +30,9 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           
       - name: Hugo setup
-        # You may pin to the exact commit or the version.
         uses: peaceiris/actions-hugo@16361eb4acea8698b220b76c0d4e84e1fd22c61d
+        with:
+          extended: true
         
       - name: Build
         run: hugo --minify
