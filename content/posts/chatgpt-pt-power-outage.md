@@ -28,3 +28,5 @@ It required some tuning and fixing but many times I just asked ChatGPT `Got the 
 ## Summary
 
 ChatGPT, and generally large language models, really leapfrog my capacity of creating simple stuff in languages and tools that I'm not proficient. Furthermore I think it will really help, in future iterations, anyone to create their own sites, applications, webservices as long they are curious and willing enough.
+
+PS: Off-course this post was written with the aid of ChatGPT
