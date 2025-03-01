@@ -2,7 +2,7 @@
 title: "Creating a simple website using ChatGPT"
 date: 2023-03-15
 draft: false
-tags: [ chatgpt, open-data ]
+tags: [ chatgpt, open-data, electricalgridptqos ]
 ---
 
 Software development has too many paradigms, programming languages and tools to know it all. This sometimes makes me a bit frustrated since I known a lot about some languages and tools but creating a simple site can seem too much effort. 
