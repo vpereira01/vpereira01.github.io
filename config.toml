@@ -2,7 +2,7 @@ baseURL = 'https://vpereira01.com/'
 languageCode = 'en'
 title = 'vpereira01'
 
-theme = "loveit"
+theme = "LoveIt"
 
 [params]
   # LoveIt theme version
