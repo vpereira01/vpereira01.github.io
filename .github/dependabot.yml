@@ -6,8 +6,3 @@ updates:
     schedule:
       interval: "daily"
 
-  # Maintain dependencies for git submodules
-  - package-ecosystem: "gitsubmodule"
-    directory: "/"
-    schedule:
-      interval: "weekly"
